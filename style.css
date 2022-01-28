@@ -1,0 +1,39 @@
+html{
+    background-color: lightgray;
+   font-family: arial;
+}
+body{
+    width: 612px;
+    margin: 0 auto;
+    background-color: white;
+    background-image: url(images/pes.jpg);
+    background-repeat: no-repeat;
+    padding-top: 165px;
+}
+div{
+    background-color: rgba(255, 255, 255, .35);
+    height: 50px;
+    box-shadow: rgba(0, 0, 0, .3) 0 1px 0;
+    margin-bottom: 30px;
+}
+h1{color: white;
+    font-size: 30px;
+    padding: 5px 0 0 30px;
+    text-shadow: rgba(0, 0, 0, .6) 2px 2px 2px;
+}
+h2{
+    font-style: italic;
+    border-bottom: 2px solid lightgrey;
+    margin: 20px 30px 0 30px;
+    padding-top: 10px;
+}
+p{
+    font-size: 15px;
+    padding:  0 30px 10px 50px;
+    text-align: justify;
+}
+h2,p::first-letter{
+    font-family: comic 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+
+}
